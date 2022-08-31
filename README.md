@@ -288,4 +288,6 @@ ok: [localhost]
 PLAY RECAP ************************************************************************************************************
 localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
-
+yandex_cloud_elk ► ansible-galaxy collection build
+Created collection for my_own_namespace.yandex_cloud_elk at /home/rod/DevOps/home_modules/my_own_collection/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+```
