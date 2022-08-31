@@ -290,4 +290,11 @@ localhost                  : ok=2    changed=0    unreachable=0    failed=0    s
 
 yandex_cloud_elk ► ansible-galaxy collection build
 Created collection for my_own_namespace.yandex_cloud_elk at /home/rod/DevOps/home_modules/my_own_collection/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
+
+playbook ► ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz -f
+Starting galaxy collection install process
+Process install dependency map
+Starting collection install process
+Installing 'my_own_namespace.yandex_cloud_elk:1.0.0' to '/home/rod/.ansible/collections/ansible_collections/my_own_namespace/yandex_cloud_elk'
+my_own_namespace.yandex_cloud_elk:1.0.0 was installed successfully
 ```
